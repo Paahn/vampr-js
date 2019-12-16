@@ -32,7 +32,7 @@ class Vampire {
 
   // Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
   isMoreSeniorThan(vampire) {
-    return (this.numberOfVampiresFromOriginal < vampire.numberOfVampiresFromOriginal)
+    return (this.numberOfVampiresFromOriginal < vampire.numberOfVampiresFromOriginal);
   }
 
 
